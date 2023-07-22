@@ -1,0 +1,20 @@
+.field-options {
+    border-radius: 15px; /* Add border radius to the whole table */
+    background-color: #e4e4e6;
+    padding: 20px;
+    margin-top: 10px; /* Add margin between the First and Second components */
+  }
+  
+  .field-options thead th {
+    padding: 10px 15px; /* Add padding to the table header cells */
+  }
+  
+  .field-options td {
+    padding: 10px 15px; /* Add padding to the table data cells */
+  }
+  
+  .field-options label {
+    display: flex;
+    align-items: center;
+    gap: 5px; /* Add margin between the checkboxes and field text */
+  }

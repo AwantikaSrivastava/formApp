@@ -1,0 +1,68 @@
+/* styles.css */
+/* You can customize the styles according to your requirements */
+
+.App {
+  text-align: center;
+  margin: 20px;
+  color: rgb(109, 109, 223);
+}
+
+.components-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.components-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.display-button-row {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.display-button {
+  padding: 10px 20px;
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.first-component {
+  flex: 1;
+  margin-right: 10px;
+  background-color: #e4e4e6;
+  border-radius: 15px;
+  padding: 20px;
+}
+
+.second-component {
+  flex: 1;
+  background-color: #e4e4e6;
+  border-radius: 15px;
+  padding: 20px;
+}
+
+.result-container {
+  width: 50%;
+  margin:50;
+  padding: 20px;
+  background-color: #e4e4e6;
+  border-radius: 15px;
+  text-align: left;
+  
+}
+
+.result-container h2 {
+  margin-bottom: 10px;
+}
+
+.result-container p {
+  margin: 5px 0;
+}
